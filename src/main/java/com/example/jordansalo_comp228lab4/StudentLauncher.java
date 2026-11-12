@@ -9,13 +9,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class StudentLauncher extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
 
         FXMLLoader loader = new FXMLLoader(
-                HelloApplication.class.getResource("/student_form.fxml")
+                StudentLauncher.class.getResource("/student_form.fxml")
         );
 
         Parent root = loader.load();
